@@ -1,8 +1,10 @@
 button{
   background-color: rgb(206, 189, 185);
   color: black;
-  border-color: grey;
-  font-size: 14px;
+  border: 2px solid grey;
+  font-size: 16px;
+  padding: 14px 40px;
+  border-radius: 12px;
 
 
 }
