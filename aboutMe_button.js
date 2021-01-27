@@ -2,7 +2,7 @@
 
 const e = React.createElement;
 
-class LikeButton extends React.Component {
+class AboutMeButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = { liked: false };
