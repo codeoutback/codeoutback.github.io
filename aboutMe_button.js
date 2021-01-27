@@ -16,7 +16,7 @@ class AboutMeButton extends React.Component {
     return e(
       'button',
       { onClick: () => this.setState({ liked: true }) },
-      'Like'
+      'About Me'
     );
   }
 }
