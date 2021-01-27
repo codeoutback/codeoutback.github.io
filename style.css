@@ -1,8 +1,10 @@
 button{
   background-color: rgb(206, 189, 185);
   color: black;
-  font-weight: bolder;
-  font-family: serif;
+  border-color: grey;
+  font-size: 14px;
+
+
 }
 #aboutMe_button_container{
   background-color: black;
