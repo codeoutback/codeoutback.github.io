@@ -1,6 +1,9 @@
-#aboutMe_button_container{
+#aboutMe_button{
   background-color: black;
   color: white;
+}
+#aboutMe_button_container{
+  background-color: black;
 }
 body{
   background-color: rgb(206, 189, 185);
