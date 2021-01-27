@@ -21,4 +21,4 @@ class AboutMeButton extends React.Component {
   }
 }
 const domContainer = document.querySelector('#aboutMe_button_container');
-ReactDOM.render(e(LikeButton), domContainer);
+ReactDOM.render(e(AboutMeButton), domContainer);
