@@ -8,6 +8,7 @@ class AboutMeButton extends React.Component {
     this.state = { liked: false };
   }
 
+//If the about me button is clicked, take me to aboutMe.html page
   render() {
     if (this.state.liked) {
       location.href="aboutMe.html";
