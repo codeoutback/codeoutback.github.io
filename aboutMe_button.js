@@ -10,7 +10,7 @@ class AboutMeButton extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return 'href="aboutMe.html"';
+      return location.href="aboutMe.html";
     }
 
     return e(
