@@ -1,6 +1,6 @@
-'use strict';
+//'use strict';
 
-const e = React.createElement;
+//const e = React.createElement;
 
 class WorkButton extends React.Component {
   constructor(props) {
