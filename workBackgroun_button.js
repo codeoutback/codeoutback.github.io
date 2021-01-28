@@ -17,7 +17,7 @@ class WorkBackgrounButton extends React.Component {
     return e(
       'button',
       { onClick: () => this.setState({ liked: true }) },
-      'About Me'
+      'Background'
     );
   }
 }
