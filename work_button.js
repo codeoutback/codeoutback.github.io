@@ -21,5 +21,5 @@ class WorkButton extends React.Component {
     );
   }
 }
-domContainer = document.querySelector('#work_button_container');
+document.querySelector('#work_button_container');
 ReactDOM.render(e(WorkButton), domContainer);
