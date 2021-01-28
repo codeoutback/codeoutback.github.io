@@ -2,7 +2,7 @@
 
 const e = React.createElement;
 
-class WorkBackgrounButton extends React.Component {
+class Work extends React.Component {
   constructor(props) {
     super(props);
     this.state = { liked: false };
@@ -11,7 +11,7 @@ class WorkBackgrounButton extends React.Component {
 //If the about me button is clicked, take me to aboutMe.html page
   render() {
     if (this.state.liked) {
-      location.href="workBackgroun.html";
+      location.href="work.html";
     }
 
     return e(
@@ -21,5 +21,5 @@ class WorkBackgrounButton extends React.Component {
     );
   }
 }
-const domContainer = document.querySelector('#workBackgroun_button_container');
-ReactDOM.render(e(WorkBackgrounButton), domContainer);
+const domContainer = document.querySelector('#work_button_container');
+ReactDOM.render(e(Work), domContainer);
