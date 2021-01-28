@@ -1,4 +1,6 @@
+'use strict';
 
+e = React.createElement;
 
 class WorkButton extends React.Component {
   constructor(props) {
@@ -19,5 +21,5 @@ class WorkButton extends React.Component {
     );
   }
 }
-const domContainer = document.querySelector('#work_button_container');
+domContainer = document.querySelector('#work_button_container');
 ReactDOM.render(e(WorkButton), domContainer);
