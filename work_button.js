@@ -2,7 +2,7 @@
 
 const e = React.createElement;
 
-class Work extends React.Component {
+class WorkButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = { liked: false };
@@ -22,4 +22,4 @@ class Work extends React.Component {
   }
 }
 const domContainer = document.querySelector('#work_button_container');
-ReactDOM.render(e(Work), domContainer);
+ReactDOM.render(e(WorkButton), domContainer);
