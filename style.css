@@ -6,11 +6,17 @@ button{
   padding: 14px 40px;
   border-radius: 12px;
   text-align: center;
-
-
-
-
 }
+.workButton{
+  background-color: rgb(206, 189, 185);
+  color: black;
+  border: 2px solid grey;
+  font-size: 16px;
+  padding: 14px 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+
 #aboutMe_button_container{
   background-color: black;
 }
