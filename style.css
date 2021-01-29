@@ -16,12 +16,12 @@ button{
 }
 #aboutMe_button_container{
 display:inline-block;
-idth: 20px;
+width: 20px;
 height: 10px;
 }
 #work_button_container{
 display:inline-block;
-idth: 20px;
+width: 20px;
 height: 10px;
 }
 .intro{
