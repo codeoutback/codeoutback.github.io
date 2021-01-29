@@ -14,7 +14,7 @@ button{
   text-align: center;
 }
 #aboutMe_button_container{
-bottom: 20px;
+bottom: -40px;
 }
 #work_button_container{
   position: relative;
