@@ -1,6 +1,9 @@
 body{
   background-color: rgb(206, 189, 185);
 }
+.buttonDiv{
+  background-color: black;
+}
 button{
   background-color: rgb(206, 189, 185);
   color: black;
@@ -9,9 +12,6 @@ button{
   padding: 14px 40px;
   border-radius: 12px;
   text-align: center;
-}
-.buttonDiv{
-  background-color: black;
 }
 .intro{
   color: black;
