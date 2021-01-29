@@ -3,6 +3,7 @@ body{
 }
 .buttonDiv{
   background-color: black;
+  bottom: -10px;
 }
 button{
   background-color: rgb(206, 189, 185);
