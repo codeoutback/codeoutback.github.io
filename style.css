@@ -10,7 +10,7 @@ button{
   border-radius: 12px;
   text-align: center;
 }
-.buttonDiv{
+#buttonDiv{
   background-color: black;
 }
 .intro{
