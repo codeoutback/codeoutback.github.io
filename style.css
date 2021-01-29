@@ -18,7 +18,8 @@ button{
 }
 #work_button_container{
   position: relative;
-  left: 158px;
+  left: 160px;
+  top: -20px;
 }
 .intro{
   color: black;
