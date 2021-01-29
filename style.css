@@ -2,6 +2,7 @@ body{
   background-color: rgb(206, 189, 185);
 }
 .buttonDiv{
+  position: relative;
   background-color: black;
   bottom: -40px;
 }
