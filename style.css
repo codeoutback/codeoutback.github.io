@@ -11,15 +11,13 @@ button{
   color: black;
   border: 2px solid grey;
   font-size: 16px;
-  padding: 14px 40px;
-  border-radius: 12px;
   text-align: center;
 }
 #aboutMe_button_container{
-
+display:inline-block;
 }
 #work_button_container{
-  
+display:inline-block;  
 }
 .intro{
   color: black;
