@@ -18,7 +18,7 @@ class WorkButton extends React.Component {
     return e(
       'button',
       { onClick: () => this.setState({ liked: true }) },
-      'Background'
+      'Work History:'
     );
   }
 }
