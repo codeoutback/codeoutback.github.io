@@ -11,7 +11,7 @@ class CertsButton extends React.Component {
 //If the about me button is clicked, take me to aboutMe.html page
   render() {
     if (this.state.liked) {
-      location.href="projects.html";
+      location.href="certs.html";
     }
 
     return e3(
@@ -21,5 +21,5 @@ class CertsButton extends React.Component {
     );
   }
 }
-const domContainer3 = document.querySelector('#projects_button_container');
+const domContainer3 = document.querySelector('#certs_button_container');
 ReactDOM.render(e(CertsButton), domContainer3);
