@@ -3,7 +3,7 @@
 const e1 = React.createElement;
 
 
-class SchoButton extends React.Component {
+class EduButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = { liked: false };
@@ -12,7 +12,7 @@ class SchoButton extends React.Component {
 //If the about me button is clicked, take me to aboutMe.html page
   render() {
     if (this.state.liked) {
-      location.href="schoCerts.html";
+      location.href="edu.html";
     }
 
     return e1(
@@ -22,5 +22,5 @@ class SchoButton extends React.Component {
     );
   }
 }
-const domContainer1 = document.querySelector('#scho_button_container');
-ReactDOM.render(e(SchoButton), domContainer1);
+const domContainer1 = document.querySelector('#edu_button_container');
+ReactDOM.render(e1(EduButton), domContainer1);
