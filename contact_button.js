@@ -22,4 +22,4 @@ class ContactButton extends React.Component {
   }
 }
 const domContainer2 = document.querySelector('#contact_button_container');
-ReactDOM.render(e(ContactButton), domContainer);
+ReactDOM.render(e(ContactButton), domContainer2);
