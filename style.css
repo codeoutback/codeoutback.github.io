@@ -23,11 +23,19 @@ button{
   width: 150px;
   height: 30px;
 }
-#aboutMe_button_container{
+#edu_button_container{
 display:inline-block;
 min-width: 100px;
 }
 #work_button_container{
+display:inline-block;
+min-width: 100px;
+}
+#certs_button_container{
+display:inline-block;
+min-width: 100px;
+}
+#projects_button_container{
 display:inline-block;
 min-width: 100px;
 }
