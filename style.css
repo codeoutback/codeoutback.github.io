@@ -11,6 +11,7 @@ body{
   background-color: rgb(41, 21, 40);
   height: 70px;
   text-align: center;
+  margin: 10px;
 }
 button{
   background-color: rgb(58, 62, 59);
