@@ -28,6 +28,10 @@ min-width: 100px;
 display:inline-block;
 min-width: 100px;
 }
+#contact_button_container{
+display:inline-block;
+min-width: 100px;
+}
 .intro{
   color: rgb(158, 130, 156);
 }
