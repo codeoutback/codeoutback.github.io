@@ -22,4 +22,4 @@ class CertsButton extends React.Component {
   }
 }
 const domContainer3 = document.querySelector('#certs_button_container');
-ReactDOM.render(e(CertsButton), domContainer3);
+ReactDOM.render(e3(CertsButton), domContainer3);

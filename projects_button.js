@@ -22,4 +22,4 @@ class ProjectsButton extends React.Component {
   }
 }
 const domContainer4 = document.querySelector('#projects_button_container');
-ReactDOM.render(e(ProjectsButton), domContainer4);
+ReactDOM.render(e4(ProjectsButton), domContainer4);
