@@ -58,5 +58,7 @@ min-width: 100px;
 }
 .mePic{
   text-align: center;
-  
+  width: 30px;
+  height: 30px;
+
 }
