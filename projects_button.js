@@ -1,9 +1,8 @@
 'use strict';
 
-const e2 = React.createElement;
+const e4 = React.createElement;
 
-
-class WorkButton extends React.Component {
+class ProjectsButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = { liked: false };
@@ -12,15 +11,15 @@ class WorkButton extends React.Component {
 //If the about me button is clicked, take me to aboutMe.html page
   render() {
     if (this.state.liked) {
-      location.href="work.html";
+      location.href="projects.html";
     }
 
-    return e2(
+    return e4(
       'button',
       { onClick: () => this.setState({ liked: true }) },
-      'Work History'
+      'My Projects'
     );
   }
 }
-const domContainer2 = document.querySelector('#work_button_container');
-ReactDOM.render(e(WorkButton), domContainer2);
+const domContainer4 = document.querySelector('#projects_button_container');
+ReactDOM.render(e(ProjectsButton), domContainer4);

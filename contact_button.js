@@ -1,6 +1,6 @@
 'use strict';
 
-const e2 = React.createElement;
+const e5 = React.createElement;
 
 class ContactButton extends React.Component {
   constructor(props) {
@@ -14,12 +14,12 @@ class ContactButton extends React.Component {
       location.href="contact.html";
     }
 
-    return e(
+    return e5(
       'button',
       { onClick: () => this.setState({ liked: true }) },
       'Contact Me'
     );
   }
 }
-const domContainer2 = document.querySelector('#contact_button_container');
-ReactDOM.render(e(ContactButton), domContainer2);
+const domContainer5 = document.querySelector('#contact_button_container');
+ReactDOM.render(e(ContactButton), domContainer5);
