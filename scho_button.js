@@ -3,7 +3,7 @@
 const e1 = React.createElement;
 
 
-class Scho extends React.Component {
+class SchoButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = { liked: false };
@@ -18,9 +18,9 @@ class Scho extends React.Component {
     return e1(
       'button',
       { onClick: () => this.setState({ liked: true }) },
-      'Schooling'
+      'Education'
     );
   }
 }
-const domContainer1 = document.querySelector('#Scho_button_container');
+const domContainer1 = document.querySelector('#scho_button_container');
 ReactDOM.render(e(SchoButton), domContainer1);
