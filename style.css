@@ -1,13 +1,13 @@
 body{
-  background-color: rgb(221, 93, 74);
+  background-color: rgb(158, 130, 156);
 }
 .buttonDiv{
-  background-color: rgb(232, 172, 151);
+  background-color: rgb(240, 239, 244);
   height: 70px;
   text-align: center;
 }
 button{
-  background-color: rgb(206, 189, 185);
+  background-color: rgb(58, 62, 59);
   color: black;
   border: 2px solid grey;
   font-size: 16px;
