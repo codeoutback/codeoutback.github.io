@@ -61,6 +61,7 @@ min-width: 100px;
   background-color: rgb(41, 21, 40);
   width: 1000px;
   height: 200px;
+  position: absolute;
   left: 300px;
 
 }
