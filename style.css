@@ -56,8 +56,8 @@ min-width: 100px;
 .aboutMeSection{
   text-align: center;
 }
-.mePic{
-  text-align: center;
+.aboutMePic{
+  margin-top: 10px;
 
 
 }
