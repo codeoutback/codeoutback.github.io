@@ -58,6 +58,10 @@ min-width: 100px;
 }
 .mePic{
   text-align: center;
-  
 
+
+}
+/*This is the id to change the picture size*/
+#mePic{
+  width: 200px;
 }
