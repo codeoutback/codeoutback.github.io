@@ -50,10 +50,10 @@ min-width: 100px;
 .intro{
   color: rgb(158, 130, 156);
 }
-.aboutMeText{
+#aboutMeText{
   color: rgb(158, 130, 156);
 }
-#aboutMeSection{
+.aboutMeSection{
   text-align: center;
   margin-top: 40px;
   background-color: rgb(41, 21, 40);
