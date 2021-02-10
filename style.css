@@ -63,5 +63,6 @@ min-width: 100px;
 }
 /*This is the id to change the picture size*/
 #mePic{
-  width: 200px;
+  width: 400px;
+  height: 400px;
 }
