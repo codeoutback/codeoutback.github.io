@@ -53,6 +53,7 @@ min-width: 100px;
 
 #aboutMeText{
   color: rgb(158, 130, 156);
+  text-align: center;
 }
 /**/
 #aboutMeSection{
@@ -61,7 +62,7 @@ min-width: 100px;
   background-color: rgb(41, 21, 40);
   width: 1000px;
   height: 200px;
-  left: -400px;
+  left: 250px;
 }
 /*This is to move the div down that contains the picture
 and to center it on the page*/
