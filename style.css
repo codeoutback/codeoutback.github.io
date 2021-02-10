@@ -52,6 +52,7 @@ min-width: 100px;
 }
 .aboutMeText{
   color: rgb(158, 130, 156);
+  text-align: center;
 }
 .aboutMeSection{
   text-align: center;
