@@ -55,6 +55,8 @@ min-width: 100px;
 }
 .aboutMeSection{
   text-align: center;
+  margin-top: 40px;
+  background-color: rgb(58, 62, 59);
 }
 /*This is to move the div down that contains the picture
 and to center it on the page*/
