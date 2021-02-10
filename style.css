@@ -56,11 +56,13 @@ min-width: 100px;
 .aboutMeSection{
   text-align: center;
 }
+/*This is to move the div down that contains the picture
+and to center it on the page*/
 .aboutMePic{
   text-align: center;
   margin-top: 50px;
 }
-/*This is the id to change the picture size*/
+/*This is the id to change the picture size and add a border*/
 #mePic{
   width: 400px;
   height: 400px;
