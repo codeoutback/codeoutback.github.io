@@ -62,7 +62,7 @@ min-width: 100px;
   width: 1000px;
   height: 200px;
   left: 450px;
-
+ position: fixed;
 }
 /*This is to move the div down that contains the picture
 and to center it on the page*/
