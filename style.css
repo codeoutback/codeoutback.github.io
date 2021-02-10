@@ -59,11 +59,11 @@ min-width: 100px;
 .aboutMePic{
   text-align: center;
   margin-top: 50px;
-  border: 3px;
-  border-color: rgb(41, 21, 40);
 }
 /*This is the id to change the picture size*/
 #mePic{
   width: 400px;
   height: 400px;
+  border: 3px;
+  border-color: rgb(41, 21, 40);
 }
