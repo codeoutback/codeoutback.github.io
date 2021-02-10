@@ -57,9 +57,8 @@ min-width: 100px;
   text-align: center;
 }
 .aboutMePic{
+  text-align: center;
   margin-top: 10px;
-
-
 }
 /*This is the id to change the picture size*/
 #mePic{
