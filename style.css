@@ -59,7 +59,8 @@ min-width: 100px;
   margin-top: 40px;
   background-color: rgb(41, 21, 40);
   width: 800px;
-  position: absolute;
+  position: relative;
+  left: 30px;
 }
 /*This is to move the div down that contains the picture
 and to center it on the page*/
