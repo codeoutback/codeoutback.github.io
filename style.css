@@ -54,7 +54,7 @@ min-width: 100px;
 /*This is the id for the text in the about me div (aboutMeText)*/
 #aboutMeText{
   color: rgb(158, 130, 156);
-  font-size: 12px;
+  font-size: 20px;
 }
 /**/
 #aboutMeSection{
