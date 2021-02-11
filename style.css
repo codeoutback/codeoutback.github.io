@@ -51,16 +51,23 @@ min-width: 100px;
   color: rgb(158, 130, 156);
 }
 
+/*This is the id for the text in the about me div (aboutMeText)*/
 #aboutMeText{
   color: rgb(158, 130, 156);
+  font-size: 12px;
 }
 /**/
 #aboutMeSection{
   text-align: center;
   margin-top: 40px;
   background-color: rgb(41, 21, 40);
+
+/*To change the size of the div that has the about me section in it*/
   width: 1000px;
   height: 200px;
+
+/*Margin-left and margin-right on auto - the margin makes space between elements
+and doing auto makes it so the browser calculates it*/
   margin-left: auto;
   margin-right: auto;
 }
