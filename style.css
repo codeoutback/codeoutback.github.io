@@ -75,7 +75,7 @@ and doing auto makes it so the browser calculates it*/
 and to center it on the page*/
 .aboutMePic{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 /*This is the id to change the picture size and add a border*/
 #mePic{
