@@ -58,7 +58,7 @@ min-width: 100px;
 }
 #aboutMeTextOutter{
   text-align: center;
-  
+  margin: 0 auto;
 }
 /**/
 #aboutMeSection{
