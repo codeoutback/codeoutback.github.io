@@ -65,7 +65,12 @@ min-width: 100px;
   text-align: center;
   margin-top: 40px;
   background-color: rgb(41, 21, 40);
-  width: 100%;
+
+
+  display: flex;
+  justify-content: center;
+
+
 
 /*To change the size of the div that has the about me section in it*/
   width: 1000px;
