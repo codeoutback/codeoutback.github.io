@@ -56,12 +56,12 @@ min-width: 100px;
   color: rgb(158, 130, 156);
   font-size: 25px;
 }
-#aboutMeTextOutter{
+.aboutMeSectionInner{
   text-align: center;
   margin: 0 auto;
 }
 /**/
-#aboutMeSection{
+.aboutMeSectionOutter{
   text-align: center;
   margin-top: 40px;
   background-color: rgb(41, 21, 40);
