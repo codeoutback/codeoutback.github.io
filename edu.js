@@ -1,27 +1,30 @@
 'use strict';
 
-function EduDropDwn() {
-    return(
-        <select name="selecEdu" id="selecEdu">
-        <option value="associates">Associates degree</option>
-        <option value="bachelors">Bachelors degree</option>
-        </select>
-    );
+const e6 = React.createElement;
+
+class EduDrpDwn extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { liked: true };
   }
 
-export default function EduDropDwn(){
+  render() {
+    if (this.state.liked) {
+        <select name="selecEdu" id="selecEdu">
+              <option value="associates">Associates degree</option>
+              <option value="bachelors">Bachelors degree</option>
+              </select>
+    }
 
-    <div>
-        <h1 id="eduLbl">Please select from the list to see my education background: </h1>
-        <EduDropDwn />
-    </div>
-
+    return e4(
+      'button',
+      { onClick: () => this.setState({ liked: true }) },
+      'My Projects'
+    );
+  }
 }
+const domContainer4 = document.querySelector('#projects_button_container');
+ReactDOM.render(e4(ProjectsButton), domContainer4);
 
 
 
-
-/*<select name="selecEdu" id="selecEdu">
-  <option value="associates">Associates degree</option>
-  <option value="bachelors">Bachelors degree</option>
-</select>*/
