@@ -16,7 +16,7 @@ class EduDrpDwn extends React.Component {
               </select>
     }
 
-    return e4(
+    return e6(
       'button',
       { onClick: () => this.setState({ liked: true }) },
       'My Projects'
