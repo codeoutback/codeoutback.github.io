@@ -23,8 +23,8 @@ class EduDrpDwn extends React.Component {
     );
   }
 }
-const domContainer4 = document.querySelector('#projects_button_container');
-ReactDOM.render(e4(ProjectsButton), domContainer4);
+const domContainer4 = document.querySelector('#edu_button_container');
+ReactDOM.render(e4(ProjectsButton), domContainer6);
 
 
 
