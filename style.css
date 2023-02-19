@@ -3,7 +3,7 @@ h1{
   color: rgb(240, 239, 244);
 
 }
-.aboutMe{
+.intro{
   text-align: center;
 }
 
@@ -14,9 +14,12 @@ body{
   background-color: rgb(41, 21, 40);
   height: 70px;
   text-align: center;
-
+  position: relative;
+  height: 100%;
+  padding: 15px;
 }
 button{
+  vertical-align: middle; 
   background-color: rgb(58, 62, 59);
   color: rgb(158, 130, 156);
   border: 2px solid rgb(240, 239, 244);
@@ -116,9 +119,6 @@ and to center it on the page*/
   position: absolute;
   background-color: rgb(58, 62, 59);
   color: rgb(158, 130, 156);
-  min-width: 160px;
-  overflow: auto;
-  z-index: 1;
   border-radius: 12px;
 }
 
