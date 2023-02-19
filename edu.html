@@ -3,20 +3,43 @@
 <head>
   <!--Linking style.css sheet here-->
   <link rel="stylesheet" href="style.css">
+  <!--Linking the edu.js sheet here-->
+  <script type="text/javascript"  src="edu.js"></script>
 </head>
 <body>
 
 
-<script src="edu.js" type="text/javascript"></script>
+<!--Clicks to take the user back home-->
+<button onclick="location.href='index.html';" type="button">Home</button>
 
 
-<form type="button" action="index.html">Home </form>
+<!--Creating a drop down with my associate degrees-->
+<!--Creating a div container-->
+<div class="drpDwn">
+  <button onclick="myAssoc()" class="expand">Associates degree</button>
+  <div id="assocDrpDwn" class="drpDwn-content">
+    <a href="">Liberal Studies</a>
+    <a href="">Computer Science</a>
+  </div>
+  </div>
+  
+ 
 
-<button type="button">Associates degree</button>
+<div class="drpDwn">
+  <button onclick="myBach()" class="expand">Bachelors degree</button>
+  <div id="bachDrpDwn" class="drpDwn-content">
+    <a href="">Computer Information Systems</a>
+  </div>
+  </div>
 
-<button type="button">Bachelors degree</button>
 
-
+<div class="drpDwn">
+  <button onclick="certs()" class="expand">Certificates</button>
+  <div id="certDrpDwn" class="drpDwn-content">
+    <a href="">Google Project Management Certificate</a>
+    <a href="">Software Development Certificate</a>
+</div>
+</div>
 
 
 </body>
