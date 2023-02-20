@@ -127,6 +127,18 @@ and to center it on the page*/
   position: absolute;
   background-color: rgb(58, 62, 59);
   border-radius: 12px;
+  
+  
+ 
+
+  
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+  z-index: 1;
+
+
+
 }
 
 .drpDwn-content a {
@@ -136,6 +148,8 @@ and to center it on the page*/
   display: block;
   text-align: center;
   display:inline-block;
+
+  
 }
 
 .drpDwn a:hover {color: white;}
