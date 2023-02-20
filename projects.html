@@ -3,12 +3,41 @@
 <head>
   <!--Linking style.css sheet here-->
   <link rel="stylesheet" href="style.css">
+  <!--Linking the edu.js sheet here-->
+  <script type="text/javascript"  src="projects.js"></script>
 </head>
 <body>
-<h1></h1>
-<p class="intro">My projects:</p>
-<a href="index.html">Home</a>
+
+<div class="intro">
+  <h1>Projects</h1>
+</div>
+
+<div class="buttonDiv">
+
+<!--Clicks to take the user back home-->
+<button onclick="location.href='index.html';" type="button">Home</button>
+
+
+<!--Creating a drop down with my bootcamp projects-->
+<!--Creating a div container-->
+
+
+<div class="drpDwn">
+  <button onclick="bootProj()" class="expand">Bootcamp</button>
+  <div id="bootProjDrpDwn" class="drpDwn-content">
+    <a href="">Gify</a>
+    
+  </div>
+  </div>
+  
+
+
+
+
+
+</div>
 
 
 </body>
 </html>
+

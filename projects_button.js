@@ -17,7 +17,8 @@ class ProjectsButton extends React.Component {
     return e4(
       'button',
       { onClick: () => this.setState({ liked: true }) },
-      'My Projects'
+      //Displays the name of the Button
+      'Projects'
     );
   }
 }

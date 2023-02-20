@@ -1,17 +1,18 @@
+//Function to show the retail experience
+function retail() {
+    document.getElementById("retailDrpDwn").classList.toggle("show");
+  }
+  
 
-//Function to show the associates degree
-function assoc() {
-    document.getElementById("assocDrpDwn").classList.toggle("show");
-  }
-  
-//Function to show the bachelors degree
-  function bach() {
-    document.getElementById("bachDrpDwn").classList.toggle("show");
-  }
-  
-//Function to show the certs degree
-  function certs() {
-    document.getElementById("certDrpDwn").classList.toggle("show");
+//Function to show the tech experience
+function intern() {
+  document.getElementById("internDrpDwn").classList.toggle("show");
+}
+
+
+//Function to show the tech experience
+  function tech() {
+    document.getElementById("techDrpDwn").classList.toggle("show");
   }
 
 

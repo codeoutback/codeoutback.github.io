@@ -1,15 +1,16 @@
+/*This is for the text at the top Ex: Welcome*/
 h1{
-
   color: rgb(240, 239, 244);
-
 }
+/*This is for aligning the text at the top centered in the page*/
 .intro{
   text-align: center;
 }
-
+/*This is for the background color*/
 body{
   background-color: rgb(0, 0, 0);
 }
+
 .buttonDiv{
   background-color: rgb(41, 21, 40);
   height: 70px;
@@ -46,6 +47,10 @@ min-width: 100px;
 display:inline-block;
 min-width: 100px;
 }
+#awards_button_container{
+  display:inline-block;
+  min-width: 100px;
+  }
 #contact_button_container{
 display:inline-block;
 min-width: 100px;
@@ -58,6 +63,7 @@ min-width: 100px;
 #aboutMeText{
   color: rgb(158, 130, 156);
   font-size: 25px;
+  
 }
 
 .aboutMeSectionInner{
@@ -68,7 +74,7 @@ min-width: 100px;
   text-align: center;
   margin-top: 40px;
   background-color: rgb(41, 21, 40);
-
+  border-radius: 12px;
 
   display: flex;
   justify-content: center;
@@ -89,12 +95,14 @@ and to center it on the page*/
 .aboutMePic{
   text-align: center;
   margin-top: 100px;
+ 
 }
 /*This is the id to change the picture size and add a border*/
 #mePic{
   width: 400px;
   height: 400px;
   border: 8px solid rgb(41, 21, 40);
+  border-radius: 12px;
 }
 
 
@@ -118,12 +126,11 @@ and to center it on the page*/
   display: none;
   position: absolute;
   background-color: rgb(58, 62, 59);
-  color: rgb(158, 130, 156);
   border-radius: 12px;
 }
 
 .drpDwn-content a {
-  color: black;
+  color:  rgb(158, 130, 156);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -131,6 +138,6 @@ and to center it on the page*/
   display:inline-block;
 }
 
-.drpDwn a:hover {color: rgb(158, 130, 156);}
+.drpDwn a:hover {color: white;}
 
 .show {display: block;}

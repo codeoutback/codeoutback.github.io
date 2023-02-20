@@ -3,23 +3,59 @@
 <head>
   <!--Linking style.css sheet here-->
   <link rel="stylesheet" href="style.css">
+  <!--Linking the edu.js sheet here-->
+  <script type="text/javascript"  src="work.js"></script>
 </head>
 <body>
-<h1></h1>
 
-<p class="intro">Work History:</p>
+<div class="intro">
+  <h1>Work</h1>
+</div>
 
+<div class="buttonDiv">
 
-
-
-
-
-<a href="index.html">Home</a>
-
+<!--Clicks to take the user back home-->
+<button onclick="location.href='index.html';" type="button">Home</button>
 
 
+<!--Creating a drop down with my associate degrees-->
+<!--Creating a div container-->
 
+
+<div class="drpDwn">
+  <button onclick="retail()" class="expand">Retail</button>
+  <div id="retailDrpDwn" class="drpDwn-content">
+    <a href="">Bath & Body Works</a>
+    <a href="">Nordstrom</a>
+    <a href="">Cold Stone</a>
+    <a href="">Michael's Ats & Crafts</a>
+    <a href="">Levis</a>
+    <a href="">Nordstrom Rack</a>
+    <a href="">Club Pilates</a>
+  </div>
+  </div>
+  
+
+<div class="drpDwn">
+  <button onclick="intern()" class="expand">Internship</button>
+  <div id="internDrpDwn" class="drpDwn-content">
+    <a href="">Tevora</a>
+</div>
+</div>
+
+<div class="drpDwn">
+  <button onclick="tech()" class="expand">Tech</button>
+  <div id="techDrpDwn" class="drpDwn-content">
+    <a href="">ActivTrak</a>
+    <a href="">Tricentis</a>
+</div>
+</div>
+
+
+
+</div>
 
 
 </body>
 </html>
+

@@ -17,7 +17,7 @@ class ContactButton extends React.Component {
     return e5(
       'button',
       { onClick: () => this.setState({ liked: true }) },
-      'Contact Me'
+      'Contact'
     );
   }
 }
