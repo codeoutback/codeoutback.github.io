@@ -60,17 +60,17 @@ min-width: 100px;
 }
 
 /*This is the id for the text in the about me div (aboutMeText)*/
-#aboutMeText{
+#aboutText{
   color: rgb(158, 130, 156);
   font-size: 25px;
   
 }
 
-.aboutMeSectionInner{
+.aboutSectionInner{
   margin: auto;
 }
 /**/
-.aboutMeSectionOutter{
+.aboutSectionOutter{
   text-align: center;
   margin-top: 40px;
   background-color: rgb(41, 21, 40);
@@ -80,16 +80,18 @@ min-width: 100px;
   justify-content: center;
 
 
-
 /*To change the size of the div that has the about me section in it*/
   width: 1000px;
-  height: 200px;
+  height: auto;
 
 /*Margin-left and margin-right on auto - the margin makes space between elements
 and doing auto makes it so the browser calculates it*/
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
 /*This is to move the div down that contains the picture
 and to center it on the page*/
 .aboutMePic{
@@ -104,6 +106,23 @@ and to center it on the page*/
   border: 8px solid rgb(41, 21, 40);
   border-radius: 12px;
 }
+
+
+/*This is to move the div down that contains the pictures on each page
+and to center it on the page*/
+.picDiv{
+  text-align: center;
+  margin-top: 100px;
+ 
+}
+/*This is the id to change the picture size and add a border*/
+#pic{
+  width: 500px;
+  height: 600px;
+  border: 8px solid rgb(41, 21, 40);
+  border-radius: 12px;
+}
+
 
 
 
