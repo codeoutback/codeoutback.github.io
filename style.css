@@ -120,7 +120,7 @@ and to center it on the page*/
 /*This is the id to change the picture size and add a border*/
 #pic{
   width: 550px;
-  height: 600px;
+  height: 680px;
   border: 8px solid rgb(41, 21, 40);
   border-radius: 12px;
 }
