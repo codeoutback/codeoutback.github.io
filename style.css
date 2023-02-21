@@ -176,3 +176,19 @@ and to center it on the page*/
 .drpDwn a:hover {color: white;}
 
 .show {display: block;}
+
+
+
+.vidDiv{
+  text-align: center;
+  margin-top: 100px;
+  
+ 
+}
+/*This is the id to change the picture size and add a border*/
+#vidPic{
+  width: 500px;
+  height: 450px;
+  border: 8px solid rgb(41, 21, 40);
+  border-radius: 12px;
+}
