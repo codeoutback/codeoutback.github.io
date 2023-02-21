@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <!--Linking style.css sheet here-->
-  <link rel="stylesheet" href="style.css">
-  <!--Linking the edu.js sheet here-->
-  <script type="text/javascript"  src="edu.js"></script>
+
+<!--This is the Education page-->
+<!--This is a favicon so my website has a little pic of me-->
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  
+<!--Linking style.css sheet here-->
+<link rel="stylesheet" href="style.css">
+  
+<!--Linking the edu.js sheet here-->
+<script type="text/javascript"  src="edu.js"></script>
 </head>
 <body>
 
+<!--Created a div (container) that contains the messaging at the top of the page-->
 <div class="intro">
   <h1>Education</h1>
 </div>
 
-<div class="buttonDiv">
 
+<div class="buttonDiv">
 <!--Clicks to take the user back home-->
 <button onclick="location.href='index.html';" type="button">Home</button>
 
-
 <!--Creating a drop down with my associate degrees-->
 <!--Creating a div container-->
-
-
 <div class="drpDwn">
   <!--Calling the assoc function from the edu.js page-->
   <button onclick="assoc()" class="expand">Associates</button>
@@ -32,8 +35,6 @@
   </div>
   </div>
   
- 
-
 <div class="drpDwn">
   <!--Calling the bach function from the edu.js page-->
   <button onclick="bach()" class="expand">Bachelors</button>
@@ -41,7 +42,6 @@
     <a href="">Computer Information Systems</a>
   </div>
   </div>
-
 
 <div class="drpDwn">
 <!--Calling the certs function from the edu.js page-->
@@ -54,8 +54,10 @@
 </div>
 
 
-<div class="picDiv"><img id="pic" src="images/calPoly.jpg" alt="me"></div>
+<!--A picture of Cal Poly Pomona in a div-->
+<div class="picDiv"><img id="pic" src="images/calPoly.jpg" alt="A picture of Cal Poly Pomona"></div>
 
+<!--A div container talking about the picture above-->
 <div class="aboutSectionOutter"><div class="aboutSectionInner"><p id="aboutText">The photo taken above was from my time attending school at Cal Poly Pomona.</p></div></div>
 
 </body>

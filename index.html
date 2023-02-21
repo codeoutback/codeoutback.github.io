@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <!--Linking style.css sheet here-->
-  <link rel="stylesheet" href="style.css">
+
+<!--Hello and welcome to my website! This has been a work in progress and I finally have made quite a bit of progress over
+this past 3 day weekend 2/21/23. I love coding and messing around with it to see what I can make. I hope you enjoy this site 
+as much as I have had creating it. I would love to hear feedback as well about the code/ design and how I could make this better. 
+My goal eventually is to make it I think so the drop downs do not go to any more external links or pages but instead will use an 
+array or a for loop to go through the items in the drop down and based on the item clicked, that information will show on the page. 
+I left comments on all the pages but definitely this page as well as the edu_button.js I focused on. I would say that coding wise I 
+am comfortable with if statements, for loops, while loops and do while loops. I have worked with linked lists before but not really 
+with Javascript. I have also tried to touch on maps (I know they have key/ value pairs). I have also read about trees before. I would 
+say that anything past arrays I need studying on/ refreshers. Thank you so much!-->
+
+
+
+<!--This is the Home page-->
+
+<!--This is a favicon so my website has a little pic of me-->
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+<!--Linking style.css sheet here that contains all the css to make this page pretty :) -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!--Created a div (container) that contains the messaging at the top of the page-->
 <div class="intro">
 <h1>Welcome</h1>
 </div>
 
-<!--React item-->
+<!--Created a div to contain individual divs for each button with ids that take priority over a class. I will be using the ids to distinguish each
+button. -->
 <div class="buttonDiv">
 <div id="edu_button_container"></div>
 <div id="work_button_container"></div>
@@ -20,17 +39,15 @@
 <div id="contact_button_container"></div>
 </div>
 
-<!--My Picture in a div-->>
-<div class="aboutMePic"><img id="mePic" src="images/me.jpeg" alt="me"></div>
+<!--My Picture in a div-->
+<div class="aboutMePic"><img id="mePic" src="images/me.jpeg" alt=" it is a picture of marina (me)"></div>
 
 <!--A div container talking about me-->
 <div class="aboutSectionOutter"><div class="aboutSectionInner"><p id="aboutText">Hello there and thank you for checking out my site! <br>
 My name is Marina and I am originally from sunny southern California and I now reside in Virginia.
 I work as a Senior Technical Support Engineer/ Platinum Support Representative. <br> Please note this site is a work in progress.</p></div></div>
 
-
-
-<!--Load react since this was not a new project and I did not add it from the command line-->
+<!--Load React since this was not a new project and I did not add it from the command line-->
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 
